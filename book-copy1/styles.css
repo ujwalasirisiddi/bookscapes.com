@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-tile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+
+.book-tile:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.book-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.button-group a,
+.button-group button {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.read-link {
+    background-color: #007bff;
+}
+
+.download-link {
+    background-color: #28a745;
+}
+
+.share-link {
+    background-color: #6c757d;
+}
+
+.facebook-link {
+    background-color: #3b5998;
+}
+
+.twitter-link {
+    background-color: #1da1f2;
+}
+
+.instagram-link {
+    background-color: #e4405f;
+}
+
+.copy-link-button {
+    background-color: #17a2b8;
+}
+
+.review-form {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.review-form textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.review-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reviews {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.reviews h3 {
+    margin-top: 0;
+}
+
+.reviews p {
+    margin: 5px 0;
+}
